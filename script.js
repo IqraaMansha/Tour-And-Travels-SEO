@@ -14,7 +14,6 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
     loginForm.classList.remove('active');
 }
-
 menu.addEventListener('click', () =>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
